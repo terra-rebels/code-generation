@@ -1,4 +1,4 @@
-swagger: '2.0'
+openapi: 2.0.0
 info:
   title: Cosmos SDK - Legacy REST and gRPC Gateway docs
   description: 'A REST interface for state queries, legacy transactions'
@@ -37068,9 +37068,6 @@ paths:
                       format: byte
       tags:
         - Query
-securityDefinitions:
-  kms:
-    type: basic
 definitions:
   CheckTxResult:
     type: object
